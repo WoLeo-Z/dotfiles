@@ -25,7 +25,7 @@
     enabled = "fcitx5";
     fcitx5.addons = with pkgs; [
       fcitx5-rime
-      (fcitx5-rime.override {rimeDataPkgs = [pkgs.nur.repos.linyinfeng.rimePackages.rime-ice];})
+      # (fcitx5-rime.override {rimeDataPkgs = [pkgs.nur.repos.linyinfeng.rimePackages.rime-ice];})
       rime-data
       fcitx5-configtool
       # fcitx5-chinese-addons
